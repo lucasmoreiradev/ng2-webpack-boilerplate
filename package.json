@@ -1,16 +1,11 @@
 {
-  "name": "angular2-crud",
+  "name": "ng2-webpack-boilerplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple boilerplate to create projects with ng2 and webpack",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
-    "lite": "lite-server",
-    "postinstall": "typings install",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "typings": "typings"
+    "start": "node server.js"
   },
   "keywords": [
     "ng2"
